@@ -1,0 +1,97 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#nakshatras-size1 {
+    height: 300px ;
+     
+}
+
+#nakshatras-size2 {
+    height: 300px ;
+    
+}
+
+#nakshatras-size3 {
+    height: 300px ;
+     
+}
+
+#nakshatras-size4 {
+    height: 300px ;
+    
+}
+
+ 
+.nakshatra-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10 15px; /* Ajuste conforme necessário */
+    margin-top: px; /* Adicione uma margem superior para posicioná-lo mais para cima */
+    justify-content: center;
+     padding: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+.nakshatra-container img {
+    width: 100%;
+    height: auto;
+}
+
+#nakshatras {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Alinha os contêineres à esquerda */
+    margin-top: 32px;
+    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+#nakshatras-size1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(255, 169, 216);
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1); }
+    
+ 
+
+.fa-solid   {
+    color: rgb(0, 0, 0);
+     display: flex;
+     align-items: center;
+     justify-content: center;} 
+ 
+
+@media screen and (max-width: 1170px) {
+    #nakshatras, #nakshatras-size1 { 
+        align-items: center;
+    flex-wrap: wrap;  
+    }
+    .section-subtitle {
+        text-align: center;
+    } 
+    #nakshatra {
+        width: calc(50% -12px);
+    }
+}
+      
+ 
+    
+
+ 
