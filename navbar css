@@ -1,0 +1,143 @@
+header {
+    width: 100%;
+    padding: 28px 8%;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin: 0;
+}
+
+#nav_logo {
+    font-size: 18px;
+    color: rgb(255, 99, 185);
+}
+
+#nav_list {
+    margin-left: 10px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+}
+
+.nav-item.active a {
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid #4e6eff;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav_list, #navbar .btn-default {
+        display: none;
+    }
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin-left: 300px;
+    }
+
+    #mobile_menu.active {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+    #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: center;
+    }
+}
+
+.social-media-buttons {
+    display: inline-block;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 1px;
+}
+
+#cta  {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1px;
+}
+
+#cta span {
+     
+    color: rgb(255, 105, 168);
+}
+
+#cta p {
+    font-size: 1.2rem;
+    margin-top: 0%;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a  {
+text-decoration: none;
+justify-content: baseline;
+align-items: center;
+gap: 24px;
+ 
+}
+
+#phone_button a {
+   
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: white;
+  padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    align-items: baseline;
+    
+}
+
+#cta_buttons .btn-default {
+  display: flex;
+  color: black;
+  justify-content: flex-start;
+  margin-left: 30px;
+ align-items: center; 
+ 
+}
+  
+
+  
