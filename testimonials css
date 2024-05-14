@@ -1,0 +1,57 @@
+.fa-solid {
+     
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+.feedback-container, .nakshatra-avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+ 
+}
+
+.feedback  {
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+   
+     
+  
+}
+
+ 
+ 
+#testimonials {
+    min-height: calc(100vh - 81px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-top: -100px;
+}
+#testimonials img {
+    width: 25%;
+     
+}
+
+.nakshatra-avatar  {
+display: flex;
+}
+
+@media screen and (max-width: 1170px) {
+    #testimonials img {
+        width: 50%;
+       
+}
+#testimonials {
+    min-height: calc(100vh - 81px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+     
+} 
+}
