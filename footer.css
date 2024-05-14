@@ -1,0 +1,52 @@
+#social-media-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 164, 206);
+    border-radius: 50%; /* Deixa o fundo um pouco redondo */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    text-decoration: none;
+}
+
+#social-media-buttons a i {
+    font-size: 20px; /* Ajusta o tamanho do ícone conforme necessário */
+    color: #333; /* Define a cor do ícone */
+    transition: color 0.3s ease; /* Adiciona uma transição suave para a cor do ícone */
+    
+    
+}
+
+#social-media-buttons a:hover i {
+    color: #555; /* Altera a cor do ícone ao passar o mouse */
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+}
+
+#footer-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#copyright {
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    #footer-items {
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+}
